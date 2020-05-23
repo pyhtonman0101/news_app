@@ -23,7 +23,6 @@ def news(num):
     get=link.get('href')
     artical_link=('https://news.google.com' + str(get[1:len(get)]))
     print(artical_link)
-    #---------------x------
     print('--------------------------x-------------------------x-------------------')
 
     recievers = Label(frame1, text=headtext, font=('arial', 14, 'bold'), fg='white', bg='gray18',padx=8,pady=8, wraplength=700)
